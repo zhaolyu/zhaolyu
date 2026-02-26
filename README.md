@@ -49,4 +49,4 @@ Personal site and R&D sandbox. The `/infra` route runs a full Postgres instance 
 - **LinkedIn:** [linkedin.com/in/zhaolyu](https://linkedin.com/in/zhaolyu)
 
 ---
-*© 2026 Zhao Yu — Hand-coded with Svelte. Deployed to the Akamai Edge.*
+*© 2026 Zhao Yu.*
