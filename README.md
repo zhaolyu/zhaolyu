@@ -18,19 +18,17 @@ I build systems based on a few non-negotiable architectural opinions:
 
 ### 🚀 Selected Work & Systems
 
-#### [CNBC.com Next-Gen Migration](https://zhaoyu.io)
-- **Role:** Lead Architect
-- **Impact:** Migrated legacy monolith to **Isomorphic Akamai Edge Architecture**, achieving a **1.1s LCP** (Top 1% globally) and **<300ms TTFB**.
-- **Tech:** React, Akamai EdgeWorkers, Node.js, GraphQL.
+#### CNBC.com — Principal Engineer (Versant)
+> 50M+ monthly users · 1.1s LCP (Top 1% globally) · <300ms global TTFB
 
-#### [CNBC AI Insight Engine](https://zhaoyu.io)
-- **Focus:** HCI for non-deterministic AI output — solving user trust at 60fps token rendering.
-- **Architecture:** Latency masking layer + real-time citation engine mapping AI-generated tokens to verified CNBC sources.
-- **Tech:** React, Akamai Edge, Generative AI.
+**Edge Architecture Migration** — Led the rearchitecture of CNBC.com from a legacy client-side monolith to an Isomorphic Akamai Edge system. Business and rendering logic now executes at the network edge via EdgeWorkers, not origin.
+
+**AI Insight Engine** — Architected the frontend for CNBC's first consumer-facing AI product. Solved the HCI paradox of maintaining user trust during non-deterministic streaming output: latency masking layer at 60fps + real-time citation engine mapping tokens to verified sources.
 
 #### [zhaoyu.io](https://github.com/zhaolyu/zhaoyu.io)
-- **Focus:** This site — a hybrid edge application bridging global CDN performance with local-first interactivity.
-- **Architecture:** SvelteKit + Svelte 5 Runes frontend, PGlite (WASM Postgres) in the browser, ElectricSQL WAL sync, deployed to Cloudflare Pages.
+> Open source · SvelteKit 5 · PGlite · ElectricSQL · Cloudflare Pages
+
+Personal site and R&D sandbox. The `/infra` route runs a full Postgres instance in the browser (WASM) synced via ElectricSQL WAL replication — zero-latency cost tracking without a backend round-trip.
 
 ---
 
