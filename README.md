@@ -1,52 +1,22 @@
-# Zhao Yu (Zhao Lun Yu)
-**Principal Engineer & System Architect @ CNBC (NBCUniversal)**
-*Architecting high-scale web experiences for 50M+ monthly users | 1.1s LCP at the Akamai Edge*
+# Zhao Yu
 
----
+**Senior Manager, Core Web @ CNBC** — player-coach engineering leader: I manage the team
+that owns CNBC.com's core experience (8 engineers, 2 QE) and still architect and ship
+alongside them.
 
-### 🏛️ Engineering Philosophy
+- 🌐 [zhaoyu.io](https://zhaoyu.io) · [Engineering notes](https://zhaoyu.io/blog) · [AI thesis](https://zhaoyu.io/ai-manifesto)
+- ⚡ Nine years of performance-first engineering — isomorphic Akamai EdgeWorkers
+  architecture serving 50M+ monthly users, 1.1s LCP (top 1% Core Web Vitals)
+- 🤖 AI Integration Lead — standards, guardrails, and the review bar for AI-assisted
+  development across an org
+- 🛠 Independent builder — [zhaoyu.io](https://github.com/zhaolyu/zhaoyu.io) (SvelteKit +
+  PGlite/ElectricSQL local-first infra dashboard) and OB1, a personal exocortex of
+  atomic, cross-linked engineering claims my agents query over MCP
+- 🏃 3:07 marathoner · 50K ultra finisher
 
-I build systems based on a few non-negotiable architectural opinions:
+## Operating principles
 
-- **Latency is the enemy of trust.** Performance is a feature, not an afterthought. I architect for a 1.1s LCP at a global scale.
-- **URL > Store.** The URL is the only reliable single source of truth. I prefer URL-driven state to eliminate desynchronization.
-- **WET > DRY.** Clarity and composition over premature, leaky abstractions. I'd rather write it twice than maintain a "God Component."
-- **Server > Client.** Shipping HTML via **Akamai EdgeWorkers** to minimize the JavaScript tax on the browser.
-- **Plan-First AI.** AI should be a high-leverage orchestrator of intent, governed by strict in-house guardrails and automated "Definition of Done."
+**Latency is the enemy of trust** · **URL > Store** · **Server > Client** ·
+**WET > DRY** · **Plan-first AI** — same review bar whether the author was human or machine
 
----
-
-### 🚀 Selected Work & Systems
-
-#### CNBC.com — Principal Engineer (Versant)
-> 50M+ monthly users · 1.1s LCP (Top 1% globally) · <300ms global TTFB
-
-**Edge Architecture Migration** — Led the rearchitecture of CNBC.com from a legacy client-side monolith to an Isomorphic Akamai Edge system. Business and rendering logic now executes at the network edge via EdgeWorkers, not origin.
-
-**AI Insight Engine** — Architected the frontend for CNBC's first consumer-facing AI product. Solved the HCI paradox of maintaining user trust during non-deterministic streaming output: latency masking layer at 60fps + real-time citation engine mapping tokens to verified sources.
-
-#### [zhaoyu.io](https://github.com/zhaolyu/zhaoyu.io)
-> Open source · SvelteKit 5 · PGlite · ElectricSQL · Cloudflare Pages
-
-Personal site and R&D sandbox. The `/infra` route runs a full Postgres instance in the browser (WASM) synced via ElectricSQL WAL replication — zero-latency cost tracking without a backend round-trip.
-
----
-
-### 🏃 Endurance Metrics
-*Trading latency metrics for endurance miles.*
-
-| Metric | Value |
-|--------|-------|
-| Marathon PR | 3:07:45 |
-| Half-Marathon PR | 1:31:49 |
-| Next Target | Sub-1:25 HM |
-
----
-
-### 🌐 Connect
-
-- **Portfolio:** [zhaoyu.io](https://zhaoyu.io)
-- **LinkedIn:** [linkedin.com/in/zhaolyu](https://linkedin.com/in/zhaolyu)
-
----
-*© 2026 Zhao Yu.*
+📫 zhaolyu@gmail.com · [LinkedIn](https://www.linkedin.com/in/zhaolyu)
